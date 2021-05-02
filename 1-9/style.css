@@ -7,7 +7,7 @@
 header {
   width: 100%;
   height: 50px;
-  background-color: #ff9a4b;
+  background-color: #FF9A4B;
 }
 
 main {
@@ -16,12 +16,28 @@ main {
   display: flex;
 }
 
-.step1 {
+.step-box {
   width: 300px;
-  background-color: #eeeeee;
+  background-color: red;
+  margin-right: 30px;
 }
+.step-box:last-child {
+  margin-left: none;
+}
+span {
+  background-color: #FF9A4B;
+  color: #fff;
+}
+
+h3 {
+  margin: 15px;
+  padding: 5px;
+}
+
+
+
 footer {
   width: 100%;
   height: 50px;
-  background-color: #aaaaaa;
+  background-color: #AAAAAA;
 }
