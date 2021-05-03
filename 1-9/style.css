@@ -26,9 +26,9 @@ main {
   position: relative;
 }
 .step-box:last-child {
-  margin-left: 0;
+  margin-right: 0;
 }
-
+/* step1～3までの設定 */
 .step-num {
   background-color: #FF9A4B;
   color: #fff;
